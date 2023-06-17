@@ -1,19 +1,28 @@
-### Projeto React TypeScript
-    * Criação do projeto
+### Criando projeto React TypeScript
+    1 Criação do projeto
     ```
     npm create vite@latest
     ```
 
-    * Entrar na pasta do projeto pelo o terminal
+    2 Entrar na pasta do projeto pelo o terminal
     ```
     cd nomePasta
     ```
 
-    * Instalar as dependências
+    3 Instalar as dependências
     ```
     npm install
     ```
 
+    4 Comando para starting
+    ```
+    npm run dev
+    ```
+### Dependências
+* Criando navegação com React Router Dom
+```
+npm i react-router-dom@5.1.2 @types/react-router-dom
+```
 ### Salvando no git
     * Passo criar o repositório no git
     
@@ -28,4 +37,17 @@
     ```
     
     * Copiar os comandos no git
+### Rodando ou iniciando o projeto
+    * Comando para starting
+    ```
+    npm run dev
+    ```
+    * Limpando arquivos
+        * Apagar o App.css
+        * Limpar o App.tsx
+    * Criando Paginas Novas dentro do Diretório src
+        * Home
+        * Login
+        * Register
+
    
